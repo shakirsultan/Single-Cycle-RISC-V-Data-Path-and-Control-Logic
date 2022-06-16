@@ -1,4 +1,4 @@
-module control_unit ( 
+module control_unit (  
 	input logic [31:0] inst,
 	input logic Breq, BrLt,
 	output logic PC_Sel,Reg_WEn,BrUn,BSel,ASel,MemRW,L_sign,
